@@ -1,11 +1,12 @@
 <html lang="en">
   <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="index.css" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="tex.css" />
     <title>iSHAT's Text to Speech</title>
   </head>
   <body class="container mt-5 bg-dark">
-    <h1 class="text-light">iSHAT's Text to Speech Html Project</h1>
+    <h1 class="text-light text-center">iSHAT's Text to Speech Html Project</h1>
     <p class="lead text-light mt-4">Select Voice</p>
     <select id="voices" class="form-select bg-secondary text-light"></select>
     <div class="d-flex mt-4 text-light">
@@ -26,12 +27,28 @@
       </div>
     </div>
     <textarea class="form-control bg-dark text-light mt-5" cols="30" rows="10" placeholder="Type here..."></textarea>
-    <div class="mb-5">
+    <div class="mb-5 d-flex justify-content-center">
       <button id="start" class="btn btn-success mt-5 me-3">Start</button>
       <button id="pause" class="btn btn-warning mt-5 me-3">Pause</button>
       <button id="resume" class="btn btn-info mt-5 me-3">Resume</button>
       <button id="cancel" class="btn btn-danger mt-5 me-3">Cancel</button>
     </div>
+    <footer class="bg-dark">
+        <div class="footer-content">
+            <h2 class="text-secondary">Text To Speech</h2>
+            <p>You Are More Than Welcome To Use It!</p>
+            <ul class="socials bg-dark">
+                <li><a href="https://www.facebook.com/kklivenow"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/kk_ishat"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://www.instagram.com/kk_ishat/"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="https://www.youtube.com/c/iSHATKK"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="https://github.com/ishatspremium"><i class="fa fa-github"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom bg-dark">
+            <p>copyright &copy;2020 ishatspremium. designed by <span> <a class="link-warning new" href="https://github.com/ishatspremium">iSHAT</a> </span></p>
+        </div>
+    </footer>
   </body>
   <!-- script tag goes here -->
   <script src="./textToSpeech.js"></script>
